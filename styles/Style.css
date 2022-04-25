@@ -1,0 +1,140 @@
+.logo
+{
+    float: left; height: 60px; width: 60px;
+}
+body{
+    background-color: black;
+    background-image: url(../images/GymPic.jpg);
+    background-position:center; width:100%; 
+    background-repeat:no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+h1{
+color:darkgrey;
+
+}
+h2,h3{
+font-weight: 100;
+color: white;
+
+}
+a{
+text-decoration: none;
+}
+p{
+font-size: 20px;
+color: ghostwhite;
+}
+
+/* ID to format the main text*/
+main{
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+color: ghostwhite;
+}
+section.Slogan
+{
+text-align: center;
+}
+section.images
+{
+align-content: center;
+}
+section.video
+{
+align-content: center;
+}
+section.trainers
+{
+text-align: center;
+}
+section.hours
+{
+align-content: center;
+}
+section.form
+{
+text-align: left;
+}
+.fullWidthContent
+{
+width: 85%;
+}
+a
+{
+font-size: 30px;
+}
+nav
+{
+    padding: 15px;
+}
+nav ul li
+{
+    list-style-type: none;
+    display: inline;
+    padding: 15px;
+}
+nav ul li a
+{
+    color: black;
+    text-decoration: none;
+}
+nav ul li:hover
+{
+    background-color: grey;
+}
+nav ul
+{
+text-align: center; 
+font-size: 1.2em;
+}
+#active
+{
+    background-color: rgb(182, 105, 105);
+}
+
+section.rob
+{
+text-decoration: underline;
+}
+section.joe
+{
+text-decoration: underline;
+}
+section.zac
+{
+text-decoration: underline;
+}
+.col_detail
+{
+column-count: 2;
+column-rule: 2px solid red;
+column-gap: 30px;
+padding: 2px;
+text-align: justify;
+}
+footer ul li
+{
+    list-style-type: none;
+    color: white;
+    display: inline;
+    padding: 15px;
+}
+footer ul li a
+{
+    color: white;
+    text-decoration: none;
+    display: inline;
+}
+footer
+{
+    clear: both;
+    border: 1px solid red;
+    position:relative;
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+}
